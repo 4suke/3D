@@ -3,7 +3,8 @@ using System.Collections;
 
 public class CoinController : MonoBehaviour
 {
-
+   
+　　
     // Use this for initialization
     void Start()
     {
@@ -14,6 +15,7 @@ public class CoinController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    
         //回転
         this.transform.Rotate(0, 3, 0);
     }
